@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SnakeIdentifier</title>
+    	<link rel="stylesheet" href="snake.css" />
+    </head>
+    <body>
+        <header align="center";>
+            Snake Identifier
+        </header>
+        <section>
+            <form name="Snake" action="write_qurery.py" method="post">
+                <h1>Color</h1>
+                <ul>
+                    <li><input type="checkbox" name="Color" value="green">green</li>
+                    <li><input type="checkbox" name="Color" value="yellow">yellow</li>
+                    <li><input type="checkbox" name="Color" value="red">red</li>
+                    <li><input type="checkbox" name="Color" value="orange">orange</li>
+                    <li><input type="checkbox" name="Color" value="brown">brown</li>
+                    <li><input type="checkbox" name="Color" value="beige">beige</li>
+                    <li><input type="checkbox" name="Color" value="black">black</li>
+                    <li><input type="checkbox" name="Color" value="black">grey</li>
+                    <li><input type="checkbox" name="Color" value="white">white</li>
+                <ul>
+                <h1>Pattern</h1>
+                <ul>
+                    <li><input type="checkbox" name="Pattern" value="small_spotted">small spots</li>
+                    <li><input type="checkbox" name="Pattern" value="large_spotted">large spots</li>
+                    <li><input type="checkbox" name="Pattern" value="horizontal_stripped">horizontal stripes</li>
+                    <li><input type="checkbox" name="Pattern" value="vertical_stripped">vertical stripes</li>
+                    <li><input type="checkbox" name="Pattern" value="gradient">gradient</li>
+                    <li><input type="checkbox" name="Pattern" value="no_pattern">other</li>
+                <ul>
+                <h1>Head</h1>
+                <ul>
+                    <li><input type="radio" name="Head" value="triangular">triangular</li>
+                    <li><input type="radio" name="Head" value="big_head">big head</li>
+                </ul>
+                <h1>Rattle</h1>
+                <ul>
+                    <li><input type="radio" name="Rattle" value="rattle_yes">yes</li>
+                    <li><input type="radio" name="Rattle" value="rattle_no">no</li>
+                </ul>
+                <h1>Length (in meters)</h1>
+                <ul>
+                    <li><input type="radio" name="Length" value="small">small (less than 1)</li>
+                    <li><input type="radio" name="Length" value="medium">medium (1-2)</li>
+                    <li><input type="radio" name="Length" value="medium">large (greater than 2)</li>
+                </ul>
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+    </body>
+</html>
