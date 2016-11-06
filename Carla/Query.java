@@ -39,11 +39,11 @@ public class Query{
 
             printSasp(length, head, rattle, pat, col);  //writes query.lp
 
-            // A bunch of stuff about running prolog
+            //opening prolog and sending output to correct file
 
             //this if reading prolog's output
 
-            printSaps2(snakes);
+            //printSaps2(snakes);
 
             //more stuff about running prolog
 
@@ -225,7 +225,7 @@ public class Query{
             output.print("}.");
         }
     }
-
+/*
     public static printSaps2(String[] snakes){
         String filename;
         filename = "query.lp"; //create filename to open files with
@@ -239,6 +239,6 @@ public class Query{
 
 
         }
-    }
+    }*/
 
 }
